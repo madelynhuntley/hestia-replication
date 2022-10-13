@@ -1,0 +1,90 @@
+.navbar {
+  position: fixed;
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 10px;
+  font-size: 10px;
+  font-weight: 100;
+  padding-top: 0;
+  z-index: 2;
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar a p {
+  padding: 10px 0px;
+  margin-left: 200px;
+  color: black;
+}
+.navbar .menu-options {
+  padding-right: 200px;
+  justify-content: space-between;
+}
+.navbar .menu-options a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+}
+.navbar .menu-options button {
+  background-color: #e91e63;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 8px;
+  border: none;
+  margin-right: 0;
+  padding: 10px 15px;
+}
+.navbar .menu-options button a {
+  margin-right: 0;
+}
+
+.map iframe {
+  width: 100vw;
+  height: 70vh;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.main-container h2 {
+  grid-row: 1;
+  grid-column: 1;
+  color: #3c4858;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.main-container .left-form {
+  margin-top: 65px;
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+}
+.main-container .left-form .group input {
+  width: 80%;
+  margin-top: 7px;
+  justify-content: center;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom: #3c4858;
+}
+.main-container .left-form .group textarea {
+  width: 80%;
+  margin-top: 7px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom: #3c4858;
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,275 @@
+.navbar {
+  background-color: white;
+  position: fixed;
+  color: black;
+  margin: 0px 0px 20px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 10px;
+  font-size: 10px;
+  font-weight: 100;
+  padding-top: 0%;
+  z-index: 1;
+
+  p {
+    padding: 10px 0px;
+    margin-left: 200px;
+  }
+  .menu-options {
+    padding-right: 200px;
+    justify-content: space-between;
+
+    a {
+      margin-right: 10px;
+    }
+
+    button {
+      background-color: #e91e63;
+      color: #ffffff;
+      border-radius: 30px;
+      font-size: 8px;
+      border: none;
+      margin-right: 0;
+      padding: 10px 15px;
+
+      a {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.main-img-content-container {
+  width: 100%;
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1tr;
+  justify-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+
+  .welcome {
+    padding-top: 120px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    h1 {
+      font-size: 60px;
+      line-height: 1.4;
+      font-weight: 400;
+    }
+  }
+  .lorem-ipson {
+    font-size: 14px;
+    line-height: 1.4;
+    padding-top: 0%;
+  }
+  button {
+    border-radius: 3px;
+    background-color: #e91e63;
+    color: #ffffff;
+    border: none;
+    font-size: 8px;
+    height: 30px;
+    width: 80px;
+  }
+}
+.more-container {
+  height: 275px;
+  width: 100vw;
+
+  .what-we-stand-for {
+    display: flex;
+    justify-content: center;
+    color: #3c4858;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .row-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    text-align: center;
+    height: 100px;
+    padding: 0 30px;
+
+    img {
+      height: 45px;
+      width: 45px;
+    }
+
+    h5 {
+      color: #3c4858;
+    }
+
+    p {
+      color: #999;
+      font-size: 10px;
+    }
+  }
+}
+
+.about-hestia {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  background-position: center center;
+  color: #ffffff;
+
+  div {
+    margin-left: 100px;
+    h1 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+
+    p {
+      font-weight: 100;
+      font-size: 12px;
+    }
+  }
+  .img-container {
+    margin-right: 100px;
+    img {
+      height: 100px;
+    }
+  }
+}
+
+.blog-content-wrpr {
+  display: grid;
+  grid-template-rows: auto;
+  height: 65vh;
+  padding: 50px 100px;
+
+  .blog-txt {
+    h2 {
+      display: flex;
+      justify-content: center;
+      color: #3c4858;
+      font-size: 20px;
+    }
+  }
+  .blog-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .wrds-wrapper {
+      font-size: 12px;
+      h6 {
+        a {
+          color: #89229b;
+        }
+      }
+      h4 {
+        color: #3c4858;
+      }
+      p {
+        color: #999;
+        font-size: 10px;
+      }
+    }
+  }
+
+  .elements-wrapper {
+    font-size: 12px;
+    h6 {
+      color: #00bcd4;
+    }
+
+    h4 {
+      color: #3c4858;
+    }
+    p {
+      color: #999;
+      font-size: 10px;
+    }
+
+    button {
+      color: #23527c;
+      border: none;
+      background-color: inherit;
+      font-size: 10px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .moretags-wrapper {
+    font-size: 12px;
+    h6 {
+      color: #f44336;
+    }
+    h4 {
+      color: #3c4858;
+    }
+    p {
+      color: #999;
+      font-size: 10px;
+    }
+  }
+}
+
+.contact-footer {
+  height: 60vh;
+  background-position: center center;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-left: 50px;
+
+  .contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 225px;
+
+    i {
+      margin-top: 12px;
+      font-size: 1.5em;
+    }
+
+    h4 {
+      font-size: 12px;
+    }
+    div {
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .phone {
+    width: 249px;
+  }
+}
+.footer {
+  height: 20vh;
+  background-color: #323437;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+
+  .left-center {
+    margin-left: 100px;
+    font-size: 7px;
+
+    a {
+      margin-right: 10px;
+    }
+  }
+  .right {
+    font-size: 7px;
+    margin-left: 400px;
+  }
+}

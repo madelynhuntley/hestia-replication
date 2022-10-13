@@ -1,0 +1,248 @@
+.navbar {
+  background-color: white;
+  position: fixed;
+  color: black;
+  margin: 0px 0px 20px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 10px;
+  font-size: 10px;
+  font-weight: 100;
+  padding-top: 0%;
+  z-index: 1;
+}
+.navbar p {
+  padding: 10px 0px;
+  margin-left: 200px;
+}
+.navbar .menu-options {
+  padding-right: 200px;
+  justify-content: space-between;
+}
+.navbar .menu-options a {
+  margin-right: 10px;
+}
+.navbar .menu-options button {
+  background-color: #e91e63;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 8px;
+  border: none;
+  margin-right: 0;
+  padding: 10px 15px;
+}
+.navbar .menu-options button a {
+  margin-right: 0;
+}
+
+.main-img-content-container {
+  width: 100%;
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1tr;
+  justify-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+.main-img-content-container .welcome {
+  padding-top: 120px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.main-img-content-container .welcome h1 {
+  font-size: 60px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.main-img-content-container .lorem-ipson {
+  font-size: 14px;
+  line-height: 1.4;
+  padding-top: 0%;
+}
+.main-img-content-container button {
+  border-radius: 3px;
+  background-color: #e91e63;
+  color: #ffffff;
+  border: none;
+  font-size: 8px;
+  height: 30px;
+  width: 80px;
+}
+
+.more-container {
+  height: 275px;
+  width: 100vw;
+}
+.more-container .what-we-stand-for {
+  display: flex;
+  justify-content: center;
+  color: #3c4858;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.more-container .row-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  text-align: center;
+  height: 100px;
+  padding: 0 30px;
+}
+.more-container .row-imgs img {
+  height: 45px;
+  width: 45px;
+}
+.more-container .row-imgs h5 {
+  color: #3c4858;
+}
+.more-container .row-imgs p {
+  color: #999;
+  font-size: 10px;
+}
+
+.about-hestia {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  background-position: center center;
+  color: #ffffff;
+}
+.about-hestia div {
+  margin-left: 100px;
+}
+.about-hestia div h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.about-hestia div p {
+  font-weight: 100;
+  font-size: 12px;
+}
+.about-hestia .img-container {
+  margin-right: 100px;
+}
+.about-hestia .img-container img {
+  height: 100px;
+}
+
+.blog-content-wrpr {
+  display: grid;
+  grid-template-rows: auto;
+  height: 65vh;
+  padding: 50px 100px;
+}
+.blog-content-wrpr .blog-txt h2 {
+  display: flex;
+  justify-content: center;
+  color: #3c4858;
+  font-size: 20px;
+}
+.blog-content-wrpr .blog-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.blog-content-wrpr .blog-cards .wrds-wrapper {
+  font-size: 12px;
+}
+.blog-content-wrpr .blog-cards .wrds-wrapper h6 a {
+  color: #89229b;
+}
+.blog-content-wrpr .blog-cards .wrds-wrapper h4 {
+  color: #3c4858;
+}
+.blog-content-wrpr .blog-cards .wrds-wrapper p {
+  color: #999;
+  font-size: 10px;
+}
+.blog-content-wrpr .elements-wrapper {
+  font-size: 12px;
+}
+.blog-content-wrpr .elements-wrapper h6 {
+  color: #00bcd4;
+}
+.blog-content-wrpr .elements-wrapper h4 {
+  color: #3c4858;
+}
+.blog-content-wrpr .elements-wrapper p {
+  color: #999;
+  font-size: 10px;
+}
+.blog-content-wrpr .elements-wrapper button {
+  color: #23527c;
+  border: none;
+  background-color: inherit;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+.blog-content-wrpr .moretags-wrapper {
+  font-size: 12px;
+}
+.blog-content-wrpr .moretags-wrapper h6 {
+  color: #f44336;
+}
+.blog-content-wrpr .moretags-wrapper h4 {
+  color: #3c4858;
+}
+.blog-content-wrpr .moretags-wrapper p {
+  color: #999;
+  font-size: 10px;
+}
+
+.contact-footer {
+  height: 60vh;
+  background-position: center center;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.contact-footer .contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
+}
+.contact-footer .contact-wrapper i {
+  margin-top: 12px;
+  font-size: 1.5em;
+}
+.contact-footer .contact-wrapper h4 {
+  font-size: 12px;
+}
+.contact-footer .contact-wrapper div p {
+  font-size: 10px;
+}
+.contact-footer .phone {
+  width: 249px;
+}
+
+.footer {
+  height: 20vh;
+  background-color: #323437;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.footer .left-center {
+  margin-left: 100px;
+  font-size: 7px;
+}
+.footer .left-center a {
+  margin-right: 10px;
+}
+.footer .right {
+  font-size: 7px;
+  margin-left: 400px;
+}/*# sourceMappingURL=index.css.map */
