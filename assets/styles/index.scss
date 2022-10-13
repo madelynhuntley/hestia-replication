@@ -18,12 +18,17 @@
     padding: 10px 0px;
     margin-left: 200px;
   }
+
   .menu-options {
     padding-right: 200px;
     justify-content: space-between;
 
     a {
       margin-right: 10px;
+    }
+
+    a:hover {
+      color: #e91e63;
     }
 
     button {
@@ -36,7 +41,7 @@
       padding: 10px 15px;
 
       a {
-        margin-right: 0;
+        color: #ffffff;
       }
     }
   }
@@ -253,6 +258,7 @@
     width: 249px;
   }
 }
+
 .footer {
   height: 20vh;
   background-color: #323437;

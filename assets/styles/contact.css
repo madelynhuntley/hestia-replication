@@ -41,6 +41,7 @@
 }
 .navbar .menu-options button a {
   margin-right: 0;
+  color: #ffffff;
 }
 
 .map iframe {
@@ -53,7 +54,8 @@
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 40px;
 }
 .main-container h2 {
   grid-row: 1;
@@ -64,15 +66,20 @@
   margin-top: 35px;
   font-size: 18px;
   margin-bottom: 35px;
+  margin-left: -15.5px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .main-container .left-form {
-  margin-top: 65px;
+  margin-top: 64px;
+  margin-left: 39.5px;
   grid-column: 1;
   grid-row: 1;
   text-align: center;
 }
 .main-container .left-form .group input {
-  width: 80%;
+  width: 60%;
   margin-top: 7px;
   justify-content: center;
   border-top-color: transparent;
@@ -81,10 +88,67 @@
   border-bottom: #3c4858;
 }
 .main-container .left-form .group textarea {
-  width: 80%;
+  height: 40%;
+  width: 60%;
   margin-top: 7px;
   border-top-color: transparent;
   border-right-color: transparent;
   border-left-color: transparent;
   border-bottom: #3c4858;
+  background-size: 0 2px, 100% 1px;
+}
+.main-container .left-form .submit button {
+  color: #ffffff;
+  background-color: #e91e63;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  margin-left: -158px;
+  box-shadow: 0 2px 2px 0 rgba(233, 30, 99, 0.14), 0 3px 1px -2px rgba(233, 30, 99, 0.2), 0 1px 5px 0 rgba(233, 30, 99, 0.12);
+}
+.main-container .icons-info {
+  margin-top: 80px;
+}
+.main-container .icons-info .info-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.main-container .icons-info .info-wrapper .icon {
+  display: flex;
+}
+.main-container .icons-info .info-wrapper .icon i {
+  margin-top: 0.75rem;
+  color: #e91e63;
+}
+.main-container .icons-info .info-wrapper .icon h3 {
+  margin-left: 10px;
+  color: #3c4858;
+  grid-column: 1;
+  font-size: smaller;
+}
+.main-container .icons-info .info-wrapper p {
+  color: #999;
+  font-size: x-small;
+  grid-column: 1;
+  margin-top: 0.5em;
+}
+
+.footer {
+  height: 20vh;
+  background-color: #323437;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.footer .left-center {
+  margin-left: 100px;
+  font-size: 7px;
+}
+.footer .left-center a {
+  margin-right: 10px;
+}
+.footer .right {
+  font-size: 7px;
+  margin-left: 400px;
 }/*# sourceMappingURL=contact.css.map */

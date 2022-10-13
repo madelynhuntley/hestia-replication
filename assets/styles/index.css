@@ -25,6 +25,9 @@
 .navbar .menu-options a {
   margin-right: 10px;
 }
+.navbar .menu-options a:hover {
+  color: #e91e63;
+}
 .navbar .menu-options button {
   background-color: #e91e63;
   color: #ffffff;
@@ -35,7 +38,7 @@
   padding: 10px 15px;
 }
 .navbar .menu-options button a {
-  margin-right: 0;
+  color: #ffffff;
 }
 
 .main-img-content-container {
